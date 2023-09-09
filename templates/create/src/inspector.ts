@@ -1,4 +1,4 @@
-import { Inspector } from "@fnando/streamdeck";
+import { Inspector } from "@rdohms/streamdeck";
 import plugin from "./plugin";
 
 class DefaultPropertyInspector extends Inspector {
