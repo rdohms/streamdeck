@@ -1,4 +1,4 @@
-import { Action, KeyDownEvent, WillAppearEvent } from "@fnando/streamdeck";
+import { Action, KeyDownEvent, WillAppearEvent } from "@rdohms/streamdeck";
 
 class Hello extends Action {
   handleWillAppear(event: WillAppearEvent): void {

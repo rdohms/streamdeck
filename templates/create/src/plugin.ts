@@ -1,4 +1,4 @@
-import { Plugin } from "@fnando/streamdeck";
+import { Plugin } from "@rdohms/streamdeck";
 import * as config from "./streamdeck.json";
 import hello from "./actions/Hello";
 

@@ -1,4 +1,4 @@
-# Contributing to @fnando/streamdeck
+# Contributing to @rdohms/streamdeck
 
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
 
@@ -10,7 +10,7 @@ changes to this document in a pull request.
 
 Everyone interacting in this project's codebases, issue trackers, chat rooms and
 mailing lists is expected to follow the
-[code of conduct](https://github.com/fnando/streamdeck/blob/main/CODE_OF_CONDUCT.md).
+[code of conduct](https://github.com/rdohms/streamdeck/blob/main/CODE_OF_CONDUCT.md).
 
 ## Reporting bugs
 
@@ -27,12 +27,12 @@ the behavior, and find related reports.
 ## Contributing with code
 
 Before making any radicals changes, please make sure you discuss your intention
-by [opening an issue on Github](https://github.com/fnando/streamdeck/issues).
+by [opening an issue on Github](https://github.com/rdohms/streamdeck/issues).
 
 When you're ready to make your pull request, follow checklist below to make sure
 your contribution is according to how this project works.
 
-1. [Fork](https://help.github.com/forking/) @fnando/streamdeck
+1. [Fork](https://help.github.com/forking/) @rdohms/streamdeck
 2. Create a topic branch - `git checkout -b my_branch`
 3. Make your changes using [descriptive commit messages](#commit-messages)
 4. Update CHANGELOG.md describing your changes by adding an entry to the

@@ -1,8 +1,8 @@
-# @fnando/streamdeck
+# @rdohms/streamdeck
 
-[![Tests](https://github.com/fnando/streamdeck/workflows/js-tests/badge.svg)](https://github.com/fnando/streamdeck)
-[![NPM](https://img.shields.io/npm/v/@fnando/streamdeck.svg)](https://npmjs.org/package/@fnando/streamdeck)
-[![NPM](https://img.shields.io/npm/dt/@fnando/streamdeck.svg)](https://npmjs.org/package/@fnando/streamdeck)
+[![Tests](https://github.com/rdohms/streamdeck/workflows/js-tests/badge.svg)](https://github.com/rdohms/streamdeck)
+[![NPM](https://img.shields.io/npm/v/@rdohms/streamdeck.svg)](https://npmjs.org/package/@rdohms/streamdeck)
+[![NPM](https://img.shields.io/npm/dt/@rdohms/streamdeck.svg)](https://npmjs.org/package/@rdohms/streamdeck)
 [![MIT License](https://img.shields.io/:License-MIT-blue.svg)](https://tldrlegal.com/license/mit-license)
 
 A lean framework for developing Elgato Stream Deck plugins.
@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/3009/153739253-51973586-c278-4104-805c
 To create a new plugin, use the following command:
 
 ```bash
-npx @fnando/streamdeck create /path/to/your/plugin \
+npx @rdohms/streamdeck create /path/to/your/plugin \
   --name 'Your Plugin Name' \
   --description 'Your plugin description' \
   --id 'com.sample.streamdeck-your-plugin' \
@@ -26,7 +26,7 @@ other options you may use, so if you want to check them out, the following
 command instead:
 
 ```console
-$ npx @fnando/streamdeck create --help
+$ npx @rdohms/streamdeck create --help
 streamdeck create [path]
 
 Create a new Stream Deck extension
@@ -94,7 +94,7 @@ $ tree -I node_modules
 ├── LICENSE.md
 ├── README.md
 ├── build
-│   └── com.fnando.hello.sdPlugin
+│   └── com.rdohms.hello.sdPlugin
 │       ├── css
 │       │   ├── custom.css
 │       │   └── sdpi.css
@@ -119,7 +119,7 @@ $ tree -I node_modules
 ├── package-lock.json
 ├── package.json
 ├── release
-│   └── com.fnando.hello.streamDeckPlugin
+│   └── com.rdohms.hello.streamDeckPlugin
 ├── src
 │   ├── actions
 │   │   └── Hello.ts
@@ -177,27 +177,23 @@ command will update `CHANGELOG.md`, change `src/streamdeck.json`, generate the
 `releases/*.streamDeckPlugin`, make a Git commit, tag this commit, and push to
 your preferred Git hosting service (Github or Gitlab).
 
-## Maintainer
-
-- [Nando Vieira](https://github.com/fnando)
-
 ## Contributors
 
-- https://github.com/fnando/streamdeck/contributors
+- https://github.com/rdohms/streamdeck/contributors
 
 ## Contributing
 
 For more details about how to contribute, please read
-https://github.com/fnando/streamdeck/blob/main/CONTRIBUTING.md.
+https://github.com/rdohms/streamdeck/blob/main/CONTRIBUTING.md.
 
 ## License
 
 The gem is available as open source under the terms of the
 [MIT License](https://opensource.org/licenses/MIT). A copy of the license can be
-found at https://github.com/fnando/streamdeck/blob/main/LICENSE.md.
+found at https://github.com/rdohms/streamdeck/blob/main/LICENSE.md.
 
 ## Code of Conduct
 
-Everyone interacting in the @fnando/streamdeck project's codebases, issue
+Everyone interacting in the @rdohms/streamdeck project's codebases, issue
 trackers, chat rooms and mailing lists is expected to follow the
-[code of conduct](https://github.com/fnando/streamdeck/blob/main/CODE_OF_CONDUCT.md).
+[code of conduct](https://github.com/rdohms/streamdeck/blob/main/CODE_OF_CONDUCT.md).

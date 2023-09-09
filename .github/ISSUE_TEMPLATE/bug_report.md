@@ -8,7 +8,7 @@ labels: "Status: Unconfirmed"
 <!--
   - Please provide a clear and concise description of what the bug is.
   - If possible, add an example reproducing your issue.
-  - Please test using the latest version of @fnando/streamdeck
+  - Please test using the latest version of @rdohms/streamdeck
     to make sure your issue has not already been fixed.
 -->
 
